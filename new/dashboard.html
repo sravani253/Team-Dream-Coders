@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - HIRE!!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">HIRE!!</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">JOB</a></li>
+                <li><a href="#">INTERNSHIP</a></li>
+                <li><a href="#">CERTIFICATION</a></li>
+                <li><a href="#">IMPORTANT QUESTIONS</a></li>
+            </ul>
+        </div>
+        <div class="profile-section">
+            <img id="profile-img" src="https://tamilnaducouncil.ac.in/wp-content/uploads/2020/04/dummy-avatar.jpg" alt="Profile">
+            <span id="user-email">Loading...</span>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+
+    <div class="dashboard-container">
+        <h1>Welcome to Your Dashboard</h1>
+        <p>Manage your jobs, internships, and certifications here.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h2>Jobs</h2>
+                <p>Explore job opportunities</p>
+                <button>View Jobs</button>
+            </div>
+            <div class="card">
+                <h2>Internships</h2>
+                <p>Find internships to gain experience</p>
+                <button>View Internships</button>
+            </div>
+            <div class="card">
+                <h2>Certifications</h2>
+                <p>Boost your resume with certifications</p>
+                <button>View Certifications</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - REF-FOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">REF-FOR</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">JOB</a></li>
+                <li><a href="#">INTERNSHIP</a></li>
+                <li><a href="#">CERTIFICATION</a></li>
+                <li><a href="#">IMPORTANT QUESTIONS</a></li>
+            </ul>
+        </div>
+        <div class="profile-section">
+            <img id="profile-img" src="https://tamilnaducouncil.ac.in/wp-content/uploads/2020/04/dummy-avatar.jpg" alt="Profile">
+            <span id="user-email">Loading...</span>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+
+    <div class="dashboard-container">
+        <h1>Welcome to Your Dashboard</h1>
+        <p>Track your referrals, applications, and career progress.</p>
+
+        <!-- Employee View -->
+        <div id="employee-dashboard" class="dashboard-view">
+            <h2>Employee Metrics</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Referrals Posted</h3>
+                    <p id="referrals-posted">0</p>
+                </div>
+                <div class="card">
+                    <h3>Referrals Selected</h3>
+                    <p id="referrals-selected">0</p>
+                </div>
+                <div class="card">
+                    <h3>Referrals Rejected</h3>
+                    <p id="referrals-rejected">0</p>
+                </div>
+                <div class="card">
+                    <h3>Employee Rating</h3>
+                    <p id="employee-rating">N/A</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Job Seeker View -->
+        <div id="jobseeker-dashboard" class="dashboard-view">
+            <h2>Job Seeker Metrics</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Referrals Applied</h3>
+                    <p id="referrals-applied">0</p>
+                </div>
+                <div class="card">
+                    <h3>Employees Interacted With</h3>
+                    <p id="employees-interacted">0</p>
+                </div>
+                <div class="card">
+                    <h3>Recommended Skills</h3>
+                    <p id="recommended-skills">N/A</p>
+                </div>
+                <div class="card">
+                    <h3>Interviews Attended</h3>
+                    <p id="interviews-attended">0</p>
+                </div>
+                <div class="card">
+                    <h3>Successful Interviews</h3>
+                    <p id="successful-interviews">0</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Common Details -->
+        <div class="common-details">
+            <h2>Contact Details</h2>
+            <p>Email: <span id="contact-email">N/A</span></p>
+            <p>Phone: <span id="contact-phone">N/A</span></p>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
